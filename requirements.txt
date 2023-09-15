@@ -1,0 +1,27 @@
+The `requirements.txt` file is commonly used in Python projects to specify the dependencies and their versions required to run the project. Here's a suggested `requirements.txt` file and its content for your project:
+
+**Filename:** `requirements.txt`
+
+**Content:**
+
+```plaintext
+# Project Dependencies
+vosk==0.3.30  # Speech recognition library
+numpy==1.21.2  # Numerical computing library
+```
+
+In this example, we've listed two dependencies: `vosk` and `numpy`. You should replace these with the actual dependencies your project requires. Each line in the file should follow the format `package_name==version`. You can specify the exact version of the package or use version ranges, depending on your project's requirements.
+
+To generate a `requirements.txt` file for your project, you can use the `pip freeze` command:
+
+1. Activate your project's virtual environment if you're using one.
+
+2. Install the required packages using `pip install package_name`, replacing `package_name` with the actual package name.
+
+3. After installing all the packages, run the following command to generate the `requirements.txt` file:
+
+   ```bash
+   pip freeze > requirements.txt
+   ```
+
+This command will create a `requirements.txt` file with a list of installed packages and their versions in your project's virtual environment. You can then review and edit this file to ensure it includes only the dependencies necessary for your project to run successfully.
