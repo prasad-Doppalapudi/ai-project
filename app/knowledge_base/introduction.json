@@ -1,0 +1,17 @@
+{
+    "questions": [
+        {
+            "question": "Tell me about yourself.",
+            "answer": "I am a software developer with 5 years of experience..."
+        },
+        {
+            "question": "What is your greatest strength?",
+            "answer": "My greatest strength is my problem-solving ability..."
+        },
+        {
+            "question": "What is your experience with Python?",
+            "answer": "I have extensive experience with Python..."
+        },
+        // Add more questions and answers here
+    ]
+}
