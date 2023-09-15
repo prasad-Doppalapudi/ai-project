@@ -1,27 +1,21 @@
-The `requirements.txt` file is commonly used in Python projects to specify the dependencies and their versions required to run the project. Here's a suggested `requirements.txt` file and its content for your project:
+# Speech Recognition
+vosk==0.3.44   # Speech recognition library
 
-**Filename:** `requirements.txt`
+# Natural Language Processing (NLP)
+nltk==3.6.4    # Natural Language Toolkit for NLP tasks
+spacy==3.2.1   # NLP library for advanced NLP tasks
 
-**Content:**
+# Audio Processing
+pydub==0.25.1  # Audio file manipulation library
 
-```plaintext
-# Project Dependencies
-vosk==0.3.30  # Speech recognition library
-numpy==1.21.2  # Numerical computing library
-```
+# Web Framework (if your project has a web interface)
+flask==2.1.1   # Web framework for APIs (or Django if preferred)
 
-In this example, we've listed two dependencies: `vosk` and `numpy`. You should replace these with the actual dependencies your project requires. Each line in the file should follow the format `package_name==version`. You can specify the exact version of the package or use version ranges, depending on your project's requirements.
+# Database (if your project stores data)
+sqlalchemy==1.4.26  # SQL toolkit and Object-Relational Mapping (ORM)
 
-To generate a `requirements.txt` file for your project, you can use the `pip freeze` command:
+# Testing Framework
+pytest==7.0.1   # Testing framework for automated tests
 
-1. Activate your project's virtual environment if you're using one.
-
-2. Install the required packages using `pip install package_name`, replacing `package_name` with the actual package name.
-
-3. After installing all the packages, run the following command to generate the `requirements.txt` file:
-
-   ```bash
-   pip freeze > requirements.txt
-   ```
-
-This command will create a `requirements.txt` file with a list of installed packages and their versions in your project's virtual environment. You can then review and edit this file to ensure it includes only the dependencies necessary for your project to run successfully.
+# Code Formatting
+black==21.7b0   # Code formatting tool
