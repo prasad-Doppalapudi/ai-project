@@ -1,0 +1,8 @@
+{
+    "api_key": "your_api_key_here",
+    "debug_mode": false,
+    "max_response_length": 300,
+    "language": "en",
+    "interview_topics": ["technical", "behavioral", "situational"],
+    "confidence_threshold": 0.7
+}
