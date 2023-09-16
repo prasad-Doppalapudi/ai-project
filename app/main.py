@@ -2,6 +2,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 import string
+from config import OPENAI_API_KEY
 
 # Load NLTK stopwords
 nltk.download('stopwords')
