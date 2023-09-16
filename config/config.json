@@ -4,5 +4,7 @@
     "max_response_length": 300,
     "language": "en",
     "interview_topics": ["technical", "behavioral", "situational"],
-    "confidence_threshold": 0.7
+    "confidence_threshold": 0.7,
+    "OPENAI_API_KEY" : "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"
 }
+
